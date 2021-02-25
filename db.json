@@ -1,0 +1,54 @@
+{
+  "logs": [
+    {
+      "id": 2,
+      "message": "Fixed hard drive on workstation 002",
+      "attention": false,
+      "tech": "John Doe",
+      "date": "2019-05-31T16:18:04.245Z"
+    },
+    {
+      "id": 4,
+      "message": "Workstation 026 is up and running",
+      "attention": false,
+      "tech": "Sara Wilson",
+      "date": "2019-05-31T19:57:35.544Z"
+    },
+    {
+      "message": "New fix to server 001",
+      "attention": false,
+      "tech": "Sara Wilson",
+      "date": "2021-02-25T17:48:06.717Z",
+      "id": 5
+    },
+    {
+      "message": "attention needed to server 001",
+      "attention": true,
+      "tech": "Aleksandar Mitrevski",
+      "date": "2021-02-25T17:49:27.844Z",
+      "id": 6
+    }
+  ],
+  "techs": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe"
+    },
+    {
+      "id": 2,
+      "firstName": "Sam",
+      "lastName": "Smith"
+    },
+    {
+      "id": 3,
+      "firstName": "Sara",
+      "lastName": "Wilson"
+    },
+    {
+      "firstName": "Aleksandar",
+      "lastName": "Mitrevski",
+      "id": 4
+    }
+  ]
+}
