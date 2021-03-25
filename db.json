@@ -9,24 +9,24 @@
     },
     {
       "id": 4,
-      "message": "Workstation 026 is up and running",
-      "attention": false,
-      "tech": "Sara Wilson",
-      "date": "2019-05-31T19:57:35.544Z"
-    },
-    {
-      "message": "New fix to server 001",
-      "attention": false,
-      "tech": "Sara Wilson",
-      "date": "2021-02-25T17:48:06.717Z",
-      "id": 5
-    },
-    {
-      "message": "attention needed to server 001",
+      "message": "Workstation 027 is broken",
       "attention": true,
+      "tech": "Sara Wilson",
+      "date": "2021-03-25T21:09:13.334Z"
+    },
+    {
+      "id": 6,
+      "message": "attention needed to server 002",
+      "attention": false,
       "tech": "Aleksandar Mitrevski",
-      "date": "2021-02-25T17:49:27.844Z",
-      "id": 6
+      "date": "2021-03-25T21:06:40.856Z"
+    },
+    {
+      "message": "New action on wireless  ",
+      "attention": false,
+      "tech": "Alex",
+      "date": "2021-03-25T20:06:44.022Z",
+      "id": 8
     }
   ],
   "techs": [
