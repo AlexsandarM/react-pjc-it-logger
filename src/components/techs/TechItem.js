@@ -1,12 +1,14 @@
 import React from 'react';
+import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import M from 'materialize-css/dist/js/materialize.min.js';
+import { deleteTech } from '../../actions/techActions';
 
 const TechItem = ({ tech: { id, firstName, lastName }, deleteTech }) => {
   const onDelete = () => {
-    console.log('Tech deleted');
+    deleteTech(id);
     M.toast({ html: 'Technician deleted' });
-  }
+  };
 
   return (
     <li className='collection-item'>
@@ -25,4 +27,4 @@ TechItem.propTypes = {
   deleteTech: PropTypes.func.isRequired,
 };
 
-export default TechItem;
+export default connect(null, { deleteTech })(TechItem);
